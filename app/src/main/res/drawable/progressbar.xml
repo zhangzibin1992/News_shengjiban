@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/progressbar_bg1">
+
+        <shape>
+            <gradient android:startColor="#D9DCD1"
+                android:endColor="#D9DCD1"/>
+        </shape>
+        </item>
+
+    <item >
+        <clip>
+            <shape>
+                <gradient android:startColor="#FF9907"
+                    android:endColor="#FF9907"
+                    ></gradient>
+
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

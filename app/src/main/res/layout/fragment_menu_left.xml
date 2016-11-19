@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_slidingmenu_left"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout android:id="@+id/lay_news"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+        <ImageView android:id="@+id/img_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/biz_navigation_tab_news"/>
+
+        <TextView android:id="@+id/tv_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新闻"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_toRightOf="@+id/img_news"
+            android:textColor="#fff"
+            android:layout_alignTop="@+id/img_news"
+            style="@style/titlesize"/>
+
+        <TextView android:id="@+id/tv_news_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEWS"
+            android:textColor="#fff"
+            style="@style/contextsize"
+            android:layout_alignLeft="@+id/tv_news_title"
+            android:layout_alignBottom="@+id/img_news"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout android:id="@+id/lay_shoucang"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView android:id="@+id/img_shoucang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/biz_navigation_tab_read"/>
+
+        <TextView android:id="@+id/tv_shoucang_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收藏"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_toRightOf="@+id/img_shoucang"
+            android:textColor="#fff"
+            android:layout_alignTop="@+id/img_shoucang"
+            style="@style/titlesize"/>
+
+        <TextView android:id="@+id/tv_shoucang_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAVORITE"
+            android:textColor="#fff"
+            style="@style/contextsize"
+            android:layout_alignLeft="@+id/tv_shoucang_title"
+            android:layout_alignBottom="@+id/img_shoucang"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/lay_local"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView android:id="@+id/img_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/biz_navigation_tab_local_news"/>
+
+        <TextView android:id="@+id/tv_local_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本地"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_toRightOf="@+id/img_local"
+            android:textColor="#fff"
+            android:layout_alignTop="@+id/img_local"
+            style="@style/titlesize"/>
+
+        <TextView android:id="@+id/tv_local_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCAL"
+            android:textColor="#fff"
+            style="@style/contextsize"
+            android:layout_alignLeft="@+id/tv_local_title"
+            android:layout_alignBottom="@+id/img_local"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/lay_gentie"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView android:id="@+id/img_gentie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/biz_navigation_tab_ties"/>
+
+        <TextView android:id="@+id/tv_gentie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跟帖"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_toRightOf="@+id/img_gentie"
+            android:textColor="#fff"
+            android:layout_alignTop="@+id/img_gentie"
+            style="@style/titlesize"/>
+
+        <TextView android:id="@+id/tv_gentie_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCAL"
+            android:textColor="#fff"
+            style="@style/contextsize"
+            android:layout_alignLeft="@+id/tv_gentie_title"
+            android:layout_alignBottom="@+id/img_gentie"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/lay_tupian"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView android:id="@+id/img_tupian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/biz_navigation_tab_pics"/>
+
+        <TextView android:id="@+id/tv_tupian_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_toRightOf="@+id/img_tupian"
+            android:textColor="#fff"
+            android:layout_alignTop="@+id/img_tupian"
+            style="@style/titlesize"/>
+
+        <TextView android:id="@+id/tv_tupian_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHOTO"
+            android:textColor="#fff"
+            style="@style/contextsize"
+            android:layout_alignLeft="@+id/tv_tupian_title"
+            android:layout_alignBottom="@+id/img_tupian"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

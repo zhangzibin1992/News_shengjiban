@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_slidingmenu_left"
+    >
+
+    <ImageView android:id="@+id/img_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView  android:id="@+id/tv_denglu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立刻登录"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:layout_below="@+id/img_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView android:id="@+id/tv_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新版本"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:textSize="25sp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_update"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/share_little_bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView" />
+
+        <ImageView android:id="@+id/img_weixin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gc_share_weixinfriend"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            />
+
+        <ImageView android:id="@+id/img_qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gc_share_qq"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_weixin"
+            />
+
+        <ImageView android:id="@+id/img_timeline"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gc_share_weixin_timeline"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_qq"
+        />
+
+        <ImageView android:id="@+id/img_sina"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gc_share_sina"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_timeline" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

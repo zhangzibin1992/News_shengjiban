@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.app.tools.MyActionBar
+        android:id="@+id/actionbar2"
+        style="@style/actionbar">
+    </com.android.app.tools.MyActionBar>
+
+    <com.android.app.xlistxiews.XListView
+        android:id="@+id/xlv_pinglun"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.android.app.xlistxiews.XListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/etv_pinglun"
+            android:hint="发表评论"
+            android:layout_weight="1" />
+
+        <ImageButton android:id="@+id/ibt_pinglun"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/send"/>
+    </LinearLayout>
+
+</LinearLayout>

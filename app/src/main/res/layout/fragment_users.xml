@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/btn_tuichu">
+
+    <com.android.app.tools.MyActionBar
+        android:id="@+id/actionbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.android.app.tools.MyActionBar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:background="@drawable/center_top_bg">
+
+        <ImageView android:id="@+id/img_user2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+             />
+
+        <TextView android:id="@+id/tv_dengluming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录名:张梓彬"
+            android:layout_toRightOf="@+id/img_user2"
+            android:layout_alignTop="@+id/img_user2"
+            android:layout_marginLeft="10dp"
+            android:textSize="28sp"
+            android:textColor="@color/black"/>
+
+        <TextView android:id="@+id/tv_jifeng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="积分:2367"
+            android:layout_toRightOf="@+id/img_user2"
+            android:layout_alignBottom="@+id/img_user2"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="28sp"/>
+
+    </RelativeLayout>
+
+    <TextView android:id="@+id/tv_num_gentie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="跟帖统计数:23"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+
+    <TextView android:id="@+id/tv_denglu_rizhi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="登陆日志:"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+
+    <ListView android:id="@+id/lv_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </ListView>
+
+    </LinearLayout>
+    <Button android:id="@+id/btn_tuichu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_sel"
+        android:text="退出登录"
+        android:layout_alignParentBottom="true"
+        android:textSize="23sp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhuoxinzhiqu.news_shengjiban.YindaoActivity">
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView android:id="@+id/igv_dian1"
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:src="@drawable/dian"
+          android:layout_marginRight="15dp"
+         />
+
+        <ImageView android:id="@+id/igv_dian2"          android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/dian"
+            android:layout_marginRight="15dp"
+            />
+
+        <ImageView android:id="@+id/igv_dian3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/dian"
+            android:layout_marginRight="15dp"
+            />
+
+        <ImageView android:id="@+id/igv_dian4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/dian"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

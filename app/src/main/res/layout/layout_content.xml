@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:id="@+id/layout_content" >
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp">
+
+<com.android.app.view.HorizontalListView
+    android:id="@+id/shuiping_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</com.android.app.view.HorizontalListView>
+
+
+      <ImageView android:id="@+id/iv_moretype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:src="@drawable/picture_select" />
+   </RelativeLayout>
+
+   <com.android.app.xlistxiews.XListView
+       android:id="@+id/listview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </com.android.app.xlistxiews.XListView>
+
+
+</LinearLayout>
